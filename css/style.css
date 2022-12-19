@@ -261,6 +261,30 @@ input[type=text] {
     .nav-item {
         padding: 4px 0;
     }
+
+    .body {
+        width: 90%;
+    }
+    
+    .header {
+        font-size: 26px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .text  {
+        font-size: 18px;
+    }
+
+    .body .img {
+        height: 400px;
+    }
+
+    .body img {
+        height: 93%;
+    }
 }
 
 @media (max-width: 520px) {
@@ -290,6 +314,18 @@ input[type=text] {
 
     .body img {
         height: 93%;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .name, .email {
+        width: 100%;
+    }
+
+    .feedback-feedback {
+        width: 100%;
     }
 
     .footer {
